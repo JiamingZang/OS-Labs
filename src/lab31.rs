@@ -1,6 +1,6 @@
 use std::collections::VecDeque;
 
-
+//模拟分页式存储管理中硬件的地址转换和产生缺页中断
 pub struct Pagetable{
     pages:VecDeque<Pageinfo>,
     queue:VecDeque<usize>
