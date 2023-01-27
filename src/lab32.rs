@@ -1,5 +1,5 @@
 use std::collections::VecDeque;
-
+//模拟文件管理的工作过程
 pub struct MFDblock {
     username:String,
     files:VecDeque<UFDblock>,
