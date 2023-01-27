@@ -1,6 +1,6 @@
 use std::sync::{Arc, Mutex};
 use random::default;
-
+//an example for producer and consumer
 pub struct Product{
     p: i32,
     is_empty:bool,
