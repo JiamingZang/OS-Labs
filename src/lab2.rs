@@ -1,5 +1,5 @@
 use std::collections::VecDeque;
-
+//按优先权调度算法实现处理器调度的程序
 #[derive(Debug)]
 pub enum Status {
     Ready,
